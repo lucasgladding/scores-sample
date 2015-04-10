@@ -1,0 +1,62 @@
+body {
+    font-size: 14px;
+}
+
+#board {
+    bottom: 4em;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#puck {
+    background-image: url(images/puck.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+    margin: 0 -25px;
+    left: 50%;
+    position: absolute;
+    width: 50px;
+}
+
+/** UI **/
+
+#toolbar {
+    bottom: 0;
+    height: 4em;
+    left: 0;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+}
+
+button {
+    background: black;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 1em;
+    margin: 0;
+    padding: 1em 20px;
+    width: 100%;
+}
+
+/** Transitions and animations **/
+
+.transition {
+    transition: top 0.5s linear;
+}
+
+.transition-none {
+    transition: none;
+}
+
+.position-start {
+    top: 80%;
+}
+
+.position-finish {
+    top: -20%;
+}
